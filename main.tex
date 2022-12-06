@@ -7,7 +7,6 @@
 \usepackage{johd}
 \usepackage{graphicx}
 \usepackage{graphics}
-\documentclass{article}
 \usepackage{listings}
 \usepackage{color}
 
@@ -41,9 +40,7 @@ Le registrazioni sono state effettuate nell'ambito del premio nazionale delle ar
         \caption{\label{fig1}L'organo dell'auditorium Nino Rota.}
     \end{figure}
     \noindent L'organo è stato costruito nel 1980 dalla ditta Tamburini di Crema, nota per la costruzione degli strumenti del Duomo di Milano e della Basilica di San Pietro a Roma. È alto 7 metri e largo 12, contando circa 5000 canne, tre tastiere, una pedaliera e ben 75 timbri sonori.
-    L'auditorium è di pianta esagonale con 3000 mq di superficie e 500 posti a sedere. 
-\endsubsection
-
+    L'auditorium è di pianta esagonale con 3000 mq di superficie e 500 posti a sedere.
 
 \subsection{Descrizione analitica della strumentazione adoperata}
 
@@ -76,7 +73,6 @@ Per le registrazioni è stata adoperata la seguente strumentazione:
         \includegraphics[width=1\textwidth]{images/CM4PLOT.jpg}
         \caption{\label{fig3}Risposta in frequenza e polar pattern LINE AUDIO CM4.}
     \end{figure}
-\endsubsubsection
 
 \subsubsection{B. Specifiche tecniche LINE AUDIO OM1}
     \begin{figure}[H]
@@ -97,7 +93,6 @@ Per le registrazioni è stata adoperata la seguente strumentazione:
         \includegraphics[width=1\textwidth]{images/Omni1plot.png}
         \caption{\label{fig5}Risposta in frequenza e polar pattern LINE AUDIO OM1.}
     \end{figure}
-\endsubsubsection
 
 \subsubsection{C. Specifiche tecniche Schoeps MSTC 74}
     \begin{figure}[H]
@@ -119,7 +114,6 @@ Per le registrazioni è stata adoperata la seguente strumentazione:
         \includegraphics[width=0.5\textwidth]{images/PLOT_SCHOEPS.jpg}
         \caption{\label{fig7}Risposta in frequenza e polar pattern di ciascuna capsula MK4 dello Schoeps MSTC 74.}
     \end{figure}
-\endsubsubsection
 
 \subsubsection{D. Descrizione e Configurazione Allen Heath SQ5}
     \begin{figure}[H]
@@ -148,8 +142,6 @@ Per le registrazioni è stata adoperata la seguente strumentazione:
         \item[15.] FAULKNER-FLANK-L
         \item[16.] FAULKNER-FLANK-R
     \end{itemize}
-\endsubsubsection
-\endsubsection
 
 \section{Schema di posizionamento delle configurazioni microfoniche}
     \begin{figure}[H]
@@ -169,12 +161,12 @@ Per le registrazioni è stata adoperata la seguente strumentazione:
             \includegraphics[width=0.8\textwidth]{images/ortfab.png}
             \caption{\label{fig9}Configurazione ORTF+AB}
         \end{figure}
-    \endsubsection
+    
         
     \subsection{Descrizione Seconda Configurazione}    
         La seconda configurazione è un Faulkner array. Esso è costituito da una combinazione di una coppia NOS fatta con due CM4 ed una coppia AB fatta con due OM1. Analogamente alla prima configurazione, avremo un'informazione con una immagine stereo ristretta nella coppia di CM4 e una allargata da parte dei due OM1. Questa configurazione, a differenza dell'altra, è più distante dal palco e - ovviamente - produrrà dei risultati molto differenti nell'analisi.
-    \endsubsection
-\endsection 
+    
+ 
 
 \section{Analisi delle due configurazioni}
     \subsection{Prime Considerazioni}
@@ -200,7 +192,7 @@ Per le registrazioni è stata adoperata la seguente strumentazione:
         \item Nei passaggi più veloci del brano suonato, la prima configurazione è decisamente più nitida e piacevole all'ascolto. Nella seconda lo spazio riverberante si rende complice di una resa sonora decisamente più confusionaria che fa perdere il senso melodico del brano in favore di quello prettamente armonico. Ne consegue che sui passaggi più lenti, la seconda configurazione è più ricca, seppur offra generalmente meno dettaglio
         \item Le due configurazioni, quindi, differiscono l'una per il dettaglio della stanza, l'altra per il dettaglio dello stesso organo.
     \end{itemize}
-\endsubsection
+
     
 \subsection{Analisi delle frequenze basse}
     Come già accennato, le frequenze basse rispondono diversamente nelle due configurazioni. Ci è utile quindi ispezionarle nel dettaglio. Per fare questo, ci avvaliamo del preset "Lo-Freq inspection" dell'analizzatore Voxengo SPAN. Il punto del brano in cui viene effettuata l'analisi è lo stesso dell'analisi precedente.
@@ -212,7 +204,7 @@ Per le registrazioni è stata adoperata la seguente strumentazione:
     \end{figure}
     
     Come ben dimostrato dall'analisi, il contenuto di basse delle due configurazioni è molto diverso. Abbiamo infatti una miglior risposta nella seconda configurazione. La spiegazione di questo fenomeno è che le frequenze basse, data la lunghezza d'onda ben più ampia delle altre frequenze (che a 50 Hz è circa di 6,4 m), hanno la necessità di avere più spazio per svilupparsi, ma non solo: c'è da considerare anche il fatto che le canne dell'organo che riproducono i suoni più bassi sono rivolte verso l'alto. Conseguentemente ad una distanza maggiore, abbiamo una migliore risposta in registrazione di queste canne, riuscendo a dare "l'aria" giusta per il loro sviluppo e la loro ripresa.
-\endsubsection 
+ 
 
 \subsection{Esperimento - Variazione della risposta stereofonica al variare dell'ampiezza delle singole coppie}
     Per valutare la versatilità delle coppie e la loro risposta nel bilanciamento del mid/side, un buon metodo potrebbe essere quello di vedere qual è la differenza in termini di immagine stereo e nel contenuto frequenziale al variare dell'ampiezza della coppia main e della coppia flank di entrambe le configurazioni.
@@ -247,7 +239,7 @@ Per le registrazioni è stata adoperata la seguente strumentazione:
         \includegraphics[width=1\textwidth]{images/4PLOT-MAIN.png}
          \caption{\label{fig11}A sx - Main del frontepalco | A dx - Main del Faulkner}
     \end{figure}
-\endsubsection
+
 
 \subsection{Esperimento - Analisi Mid/Side con una matrice somma/differenza}
     Una matrice somma differenza è capace di fare solo calcoli matematici sui segnali: nel nostro caso farà L+R ed L-R, che per definizione sono rispettivamente mid e side. Analizzare separatamente mid e side, ci aiuta a capire quante informazioni abbiamo "al centro" e quante "ai lati" di ciascuna coppia microfonica e di ciascuna configurazione.
